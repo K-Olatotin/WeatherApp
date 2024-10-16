@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/weather-image-3.jpg);
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat
+}
+
+.container {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    width: 400px;
+    text-align: center;
+}
+
+.text-area {
+    font-size: 28px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.input-section {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#stateInput {
+    padding: 10px;
+    border: 2px solid olive;
+    border-radius: 5px;
+    flex: 1;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #2980b9;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #1a5e7b;
+}
+
+.weather-section {
+    margin-top: 20px;
+    text-align: left;
+    color: #333;
+}
+
+.weather-info {
+    background-color: #f7f7f7;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.weather-info h2 {
+    font-size: 20px;
+    color: olive;
+}
+
+.weather-info p {
+    margin: 5px 0;
+}
